@@ -1,0 +1,19 @@
+[Data Source]
+DisplayName=Gmail (CESmiga)
+Enabled=true
+Parent=1516142709.1788.12@wks-01
+
+[Mail Transport]
+BackendName=smtp
+
+[Authentication]
+Host=smtp.googlemail.com
+Method=Google
+Port=465
+ProxyUid=system-proxy
+RememberPassword=true
+User=cesmiga@gmail.com
+CredentialName=
+
+[Security]
+Method=ssl-on-alternate-port

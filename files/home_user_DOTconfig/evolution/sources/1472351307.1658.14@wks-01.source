@@ -1,0 +1,46 @@
+[Data Source]
+DisplayName=UoPeople (CSmiga)
+Enabled=true
+Parent=1472351307.1658.16@wks-01
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+SignImip=true
+TemplatesFolder=folder://local/Templates
+
+ReplyStyle=default
+
+[Mail Identity]
+Address=ChristopherSmiga@UoPeople.edu
+Name=Christopher Smiga
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=1472351307.1658.24@wks-01
+RepliesToOriginFolder=false
+
+[Pretty Good Privacy (OpenPGP)]
+AlwaysTrust=false
+EncryptToSelf=true
+KeyId=
+SigningAlgorithm=
+SignByDefault=false
+
+EncryptByDefault=false
+PreferInline=false
+
+[Message Disposition Notifications]
+ResponsePolicy=ask
+
+[Secure MIME (S/MIME)]
+EncryptionCertificate=
+EncryptByDefault=false
+EncryptToSelf=true
+SigningAlgorithm=
+SigningCertificate=
+SignByDefault=false

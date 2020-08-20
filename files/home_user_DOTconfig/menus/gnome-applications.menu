@@ -1,0 +1,32 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Menu
+  PUBLIC '-//freedesktop//DTD Menu 1.0//EN'
+  'http://standards.freedesktop.org/menu-spec/menu-1.0.dtd'>
+<Menu>
+	<Name>Applications</Name>
+	<MergeFile type="parent">/etc/xdg/menus/gnome-applications.menu</MergeFile>
+	<Menu>
+		<Name>Development</Name>
+		<DefaultLayout inline="false"/>
+		<Menu>
+			<Name>alacarte-made</Name>
+			<Directory>alacarte-made.directory</Directory>
+			<Deleted/>
+		</Menu>
+		<Include>
+			<Filename>alacarte-made.desktop</Filename>
+		</Include>
+		<Layout>
+			<Merge type="menus"/>
+			<Filename>bluefish.desktop</Filename>
+			<Filename>codelite.desktop</Filename>
+			<Filename>eclipse.desktop</Filename>
+			<Filename>geany.desktop</Filename>
+			<Filename>alacarte-made.desktop</Filename>
+			<Filename>jetbrains-pycharm.desktop</Filename>
+			<Filename>python2.7.desktop</Filename>
+			<Filename>python3.5.desktop</Filename>
+			<Merge type="files"/>
+		</Layout>
+	</Menu>
+</Menu>

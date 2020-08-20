@@ -1,0 +1,12 @@
+################################################################################
+# WORKSTATION PRE-INSTALLATION STEPS                                           #
+################################################################################
+
+Recommended Raspian Image
+  YYYY-MM-DD-raspbian-release-lite.img
+
+Manually run commands as user 'pi'
+  login: pi
+  password: raspberry
+
+

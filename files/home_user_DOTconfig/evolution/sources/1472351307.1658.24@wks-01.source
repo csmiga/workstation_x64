@@ -1,0 +1,20 @@
+[Data Source]
+DisplayName=UoPeople (CSmiga)
+Enabled=true
+Parent=1472351307.1658.16@wks-01
+
+[Mail Transport]
+BackendName=smtp
+
+[Authentication]
+Host=smtp.office365.com
+Method=LOGIN
+Port=587
+ProxyUid=system-proxy
+RememberPassword=true
+User=ChristopherSmiga@UoPeople.edu
+
+CredentialName=
+
+[Security]
+Method=starttls-on-standard-port

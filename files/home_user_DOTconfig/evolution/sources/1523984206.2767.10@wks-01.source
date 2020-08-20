@@ -1,0 +1,19 @@
+[Data Source]
+DisplayName=Yahoo (CSmiga)
+Enabled=true
+Parent=1523984206.2767.2@wks-01
+
+[Mail Transport]
+BackendName=smtp
+
+[Authentication]
+Host=smtp.mail.yahoo.com
+Method=LOGIN
+Port=465
+ProxyUid=system-proxy
+RememberPassword=true
+User=csmiga@yahoo.com
+CredentialName=
+
+[Security]
+Method=ssl-on-alternate-port

@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/home/csmiga/.dia'
+let g:netrw_dirhist_2='/home'
+let g:netrw_dirhist_3='/home/csmiga/.adobe'
+let g:netrw_dirhist_4='/home/csmiga/Labs/ingress-0x'
+let g:netrw_dirhist_5='/mnt/ingress-06/wire.pcap/150417-1305'
+let g:netrw_dirhist_6='/home/csmiga/.ssh/configs'

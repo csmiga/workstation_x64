@@ -1,0 +1,24 @@
+[Data Source]
+DisplayName=Synamedia (CSmiga)
+Enabled=false
+Parent=1543945004.3401.2@wks-02
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://1543945004.3401.2%40wks-02/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=folder://local/Templates
+
+[Mail Identity]
+Address=csmiga@synamedia.com
+Name=Christopher Smiga
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://1543945004.3401.2%40wks-02/Sent%20Items
+TransportUid=1543945004.3401.10@wks-02
+RepliesToOriginFolder=false

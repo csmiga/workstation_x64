@@ -1,0 +1,54 @@
+[Data Source]
+DisplayName=Synamedia (CSmiga)
+Enabled=false
+Parent=
+
+[Offline]
+StaySynchronized=false
+
+[Refresh]
+Enabled=true
+IntervalMinutes=3
+
+[Authentication]
+Host=outlook.office365.com
+Method=none
+Port=993
+ProxyUid=system-proxy
+RememberPassword=true
+User=csmiga@synamedia.com
+CredentialName=
+
+[Mail Account]
+BackendName=imapx
+IdentityUid=1543945004.3401.0@wks-02
+ArchiveFolder=folder://1543945004.3401.2%40wks-02/Archive
+NeedsInitialSetup=false
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Imapx Backend]
+FilterInbox=true
+StoreChangesInterval=3
+UseMultiFetch=false
+CheckAll=true
+CheckSubscribed=true
+ConcurrentConnections=3
+FetchOrder=ascending
+FilterAll=false
+FilterJunk=false
+FilterJunkInbox=false
+Namespace=
+RealJunkPath=Junk Email
+RealTrashPath=Deleted Items
+ShellCommand=ssh -C -l %u %h exec /usr/sbin/imapd
+UseIdle=true
+UseNamespace=false
+UseQresync=true
+UseRealJunkPath=true
+UseRealTrashPath=true
+UseShellCommand=false
+UseSubscriptions=false
+IgnoreOtherUsersNamespace=false
+IgnoreSharedFoldersNamespace=false

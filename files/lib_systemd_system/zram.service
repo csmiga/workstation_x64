@@ -1,0 +1,17 @@
+[Unit]
+Description=ZRAM Swap
+Documentation=https://wiki.gentoo.org/wiki/Zram
+RefuseManualStart=yes
+DefaultDependencies=no
+Conflicts=shutdown.target
+After=systemd-sysusers.service
+Before=sysinit.target local-fs-pre.target systemd-udevd.service shutdown.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/zram.sh
+
+[Install]
+WantedBy=swap.target
+

@@ -1,0 +1,4 @@
+#search smiga.dyndns.org
+options rotate timeout:1 attempts:1
+nameserver 156.154.71.1
+nameserver 156.154.70.1

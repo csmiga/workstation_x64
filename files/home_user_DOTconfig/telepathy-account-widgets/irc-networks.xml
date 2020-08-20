@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<networks>
+  <network id="id1" name="irc.sdf.org" network_charset="UTF-8">
+    <servers>
+      <server address="irc.sdf.org" port="6667" ssl="FALSE"/>
+    </servers>
+  </network>
+</networks>

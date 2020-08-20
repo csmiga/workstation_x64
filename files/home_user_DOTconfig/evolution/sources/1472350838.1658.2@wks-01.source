@@ -1,0 +1,57 @@
+[Data Source]
+DisplayName=Outlook (CSmiga)
+Enabled=true
+Parent=
+
+[Offline]
+StaySynchronized=false
+
+[Refresh]
+Enabled=true
+IntervalMinutes=5
+
+[Authentication]
+Host=imap-mail.outlook.com
+Method=none
+Port=993
+ProxyUid=system-proxy
+RememberPassword=true
+User=csmiga@live.com
+
+CredentialName=
+
+[Mail Account]
+BackendName=imapx
+IdentityUid=1472350838.1658.0@wks-01
+
+ArchiveFolder=
+NeedsInitialSetup=false
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Imapx Backend]
+FilterInbox=true
+BatchFetchCount=500
+CheckAll=true
+CheckSubscribed=true
+ConcurrentConnections=3
+FetchOrder=ascending
+FilterAll=false
+FilterJunk=false
+FilterJunkInbox=false
+Namespace=
+RealJunkPath=
+RealTrashPath=
+ShellCommand=ssh -C -l %u %h exec /usr/sbin/imapd
+UseIdle=true
+UseNamespace=false
+UseQresync=true
+UseRealJunkPath=false
+UseRealTrashPath=false
+UseShellCommand=false
+UseSubscriptions=false
+StoreChangesInterval=3
+UseMultiFetch=false
+IgnoreOtherUsersNamespace=false
+IgnoreSharedFoldersNamespace=false

@@ -1,0 +1,22 @@
+[1]
+Active=1
+Sessions=1
+
+[Number]
+NumberOfSessions=1
+NumberOfWindows=1
+
+[Session1]
+Encoding=UTF-8
+LocalTab=%d : %n
+Profile[$e]=$HOME/.local/share/konsole/Profile 1.profile
+RemoteTab=(%u) %H
+SessionGuid={8c514d13-c1f9-49e4-80cd-77682a00fd48}
+WorkingDir[$e]=$HOME
+
+[WindowProperties1]
+ClassName=Konsole::MainWindow
+Height 1080=883
+ObjectName=MainWindow#1
+State=AAAA/wAAAAD9AAAAAAAABLUAAANgAAAABAAAAAQAAAAIAAAACPwAAAAA
+Width 1920=1205

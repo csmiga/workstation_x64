@@ -1,0 +1,148 @@
+################################################################################
+# LOCAL SYSTEMS
+################################################################################
+
+Host wks-01
+    Hostname wks-01
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    IdentityFile ~/.ssh/keys/id_rsa-csmiga
+    User csmiga
+    Port 22
+
+Host wks-02
+    Hostname wks-02
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    IdentityFile ~/.ssh/keys/id_rsa-csmiga
+    User csmiga
+    Port 22
+
+Host node-00
+    Hostname node-00
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    IdentityFile ~/.ssh/keys/id_rsa-csmiga
+    User rancher
+    Port 22
+
+Host node-01
+    Hostname node-01
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    IdentityFile ~/.ssh/keys/id_rsa-csmiga
+    User rancher
+    Port 22
+
+Host node-02
+    Hostname node-02
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    IdentityFile ~/.ssh/keys/id_rsa-csmiga
+    User rancher
+    Port 22
+
+Host node-03
+    Hostname node-03
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    IdentityFile ~/.ssh/keys/id_rsa-csmiga
+    User rancher
+    Port 22
+
+Host node-04
+    Hostname node-04
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    IdentityFile ~/.ssh/keys/id_rsa-csmiga
+    User rancher
+    Port 22
+
+Host node-05
+    Hostname node-05
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    IdentityFile ~/.ssh/keys/id_rsa-csmiga
+    User rancher
+    Port 22
+
+
+################################################################################
+# REMOTE SYSTEMS
+################################################################################
+
+Host dev-01
+    Hostname host14.codeanyhost.com
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    IdentityFile ~/.ssh/keys/id_rsa-csmiga
+    User csmiga
+    Port 28174
+
+Host gitlab.com
+    Hostname gitlab.com
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    IdentityFile ~/.ssh/keys/id_rsa-csmiga
+    User git
+    Port 22
+
+Host node1
+    Hostname direct.labs.play-with-docker.com
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    User ip172-18-0-45-bchsb7608n7000848rc0
+    Port 22
+
+Host node2
+    Hostname direct.labs.play-with-docker.com
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    User <username_here>
+    Port 22
+
+Host node3
+    Hostname direct.labs.play-with-docker.com
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    User <username_here>
+    Port 22
+
+Host node4
+    Hostname direct.labs.play-with-docker.com
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    User <username_here>
+    Port 22
+
+Host node5
+    Hostname direct.labs.play-with-docker.com
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    User <username_here>
+    Port 22
+
+Host sdf.org
+    Hostname sdf.org
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    IdentityFile ~/.ssh/keys/id_rsa-csmiga
+    User csmiga
+    Port 22
+
+Host sdf-eu.org
+    Hostname sdf-eu.org
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    IdentityFile ~/.ssh/keys/id_rsa-csmiga
+    User csmiga
+    Port 22
+
+Host smiga.dyndns.org smiga
+    Hostname smiga.dyndns.org
+    StrictHostKeyChecking no
+    ServerAliveInterval 30
+    User enable
+    Port 22
+    LocalForward 6667 irc.freenode.net:6667
+

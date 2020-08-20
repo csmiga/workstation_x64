@@ -1,0 +1,19 @@
+[Data Source]
+DisplayName=Synamedia (CSmiga)
+Enabled=true
+Parent=1543945004.3401.2@wks-02
+
+[Mail Transport]
+BackendName=smtp
+
+[Authentication]
+Host=smtp.office365.com
+Method=LOGIN
+Port=587
+ProxyUid=system-proxy
+RememberPassword=true
+User=csmiga@synamedia.com
+CredentialName=
+
+[Security]
+Method=starttls-on-standard-port

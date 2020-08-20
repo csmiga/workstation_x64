@@ -1,0 +1,54 @@
+[Data Source]
+DisplayName=Gmail (CESmiga)
+Enabled=true
+Parent=1516142709.1788.12@wks-01
+
+[Offline]
+StaySynchronized=false
+
+[Refresh]
+Enabled=true
+IntervalMinutes=5
+
+[Authentication]
+Host=imap.googlemail.com
+Method=Google
+Port=993
+ProxyUid=system-proxy
+RememberPassword=true
+User=cesmiga@gmail.com
+CredentialName=
+
+[Mail Account]
+BackendName=imapx
+IdentityUid=1516142709.1788.0@wks-01
+ArchiveFolder=
+NeedsInitialSetup=false
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Imapx Backend]
+FilterInbox=true
+StoreChangesInterval=3
+UseMultiFetch=false
+CheckAll=false
+CheckSubscribed=false
+ConcurrentConnections=3
+FetchOrder=ascending
+FilterAll=false
+FilterJunk=false
+FilterJunkInbox=false
+Namespace=
+RealJunkPath=[Gmail]/Spam
+RealTrashPath=[Gmail]/Trash
+ShellCommand=ssh -C -l %u %h exec /usr/sbin/imapd
+UseIdle=false
+UseNamespace=false
+UseQresync=false
+UseRealJunkPath=true
+UseRealTrashPath=true
+UseShellCommand=false
+UseSubscriptions=false
+IgnoreOtherUsersNamespace=false
+IgnoreSharedFoldersNamespace=false

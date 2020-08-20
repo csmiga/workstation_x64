@@ -1,0 +1,54 @@
+[Data Source]
+DisplayName=Yahoo (CSmiga)
+Enabled=true
+Parent=
+
+[Offline]
+StaySynchronized=false
+
+[Refresh]
+Enabled=true
+IntervalMinutes=5
+
+[Authentication]
+Host=imap.mail.yahoo.com
+Method=none
+Port=993
+ProxyUid=system-proxy
+RememberPassword=true
+User=csmiga@yahoo.com
+CredentialName=
+
+[Mail Account]
+BackendName=imapx
+IdentityUid=1523984205.2767.0@wks-01
+ArchiveFolder=folder://1523984206.2767.2%40wks-01/Archive
+NeedsInitialSetup=false
+
+[Security]
+Method=ssl-on-alternate-port
+
+[Imapx Backend]
+FilterInbox=true
+StoreChangesInterval=3
+UseMultiFetch=false
+CheckAll=true
+CheckSubscribed=true
+ConcurrentConnections=3
+FetchOrder=ascending
+FilterAll=false
+FilterJunk=false
+FilterJunkInbox=false
+Namespace=
+RealJunkPath=Bulk Mail
+RealTrashPath=Trash
+ShellCommand=ssh -C -l %u %h exec /usr/sbin/imapd
+UseIdle=true
+UseNamespace=false
+UseQresync=true
+UseRealJunkPath=true
+UseRealTrashPath=true
+UseShellCommand=false
+UseSubscriptions=false
+IgnoreOtherUsersNamespace=false
+IgnoreSharedFoldersNamespace=false

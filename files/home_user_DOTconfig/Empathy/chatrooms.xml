@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<chatrooms>
+  <chatroom>
+    <name>#python</name>
+    <room>#python</room>
+    <account>/org/freedesktop/Telepathy/Account/idle/irc/Smigwell0</account>
+    <auto_connect>no</auto_connect>
+    <always_urgent>no</always_urgent>
+  </chatroom>
+</chatrooms>
